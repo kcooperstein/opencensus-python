@@ -20,10 +20,6 @@ from opencensus.stats import execution_context
 class StatsRecorder(object):
     """Stats Recorder provides methods to record stats against tags
 
-    :type measure_to_view_map: :class: '~opencensus.stats.measure_to_view_map.
-                                        MeasureToViewMap'
-    :param measure_to_view_map: the measure to view map for the stats recorder
-
     """
     def __init__(self):
         if execution_context.get_measure_to_view_map() == {}:
