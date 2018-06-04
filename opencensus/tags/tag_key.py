@@ -17,7 +17,7 @@ class TagKey(object):
     """ A tag key with a property name
 
     :type name: str
-    :param name: The name of the key
+    :param name: The name 
 
     """
     def __init__(self, name):
