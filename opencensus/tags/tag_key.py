@@ -32,7 +32,7 @@ class TagKey(object):
         """Checks if the name of the key is valid
 
         :type name: str
-        :param name: name to check
+        :param name: name
 
         :rtype: bool
         :returns: True if it valid, else returns False
